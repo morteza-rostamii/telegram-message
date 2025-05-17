@@ -101,7 +101,7 @@ app.use((err, req, res, next) => {
   // console.log(usersRoute.stack);
   expressListRoutes(app, {
     color: true,
-    prefix: "api/v1/",
+    prefix: "",
   });
 
   // expressListRoutes(app, "routes:");
